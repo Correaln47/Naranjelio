@@ -7,6 +7,7 @@ RUN apt-get update \
     nano \
     python3-pip \
     python3-dev \
+    i2c-tools \
     && rm -rf /var/lib/apt/lists/*
 
 
@@ -15,7 +16,7 @@ ARG USERNAME=ros
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
-RUN pip3 install numpy pandas requests Adafruit_PCA9685
+RUN pip3 install numpy pandas requests Adafruit_PCA9685 smbus
 
 RUN groupadd --gid $USER_GID $USERNAME \
   && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \

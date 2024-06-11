@@ -1,0 +1,69 @@
+[0.772s] Invoking command in '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description': PYTHONPATH=/home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/prefix_override:/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/naranjelio_description build --build-base /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build install --record /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/install.log --install-scripts $base/lib/naranjelio_description --single-version-externally-managed
+[0.994s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.994s]   warnings.warn(
+[1.001s] running egg_info
+[1.002s] creating ../build/naranjelio_description/naranjelio_description.egg-info
+[1.002s] writing ../build/naranjelio_description/naranjelio_description.egg-info/PKG-INFO
+[1.002s] writing dependency_links to ../build/naranjelio_description/naranjelio_description.egg-info/dependency_links.txt
+[1.002s] writing entry points to ../build/naranjelio_description/naranjelio_description.egg-info/entry_points.txt
+[1.002s] writing requirements to ../build/naranjelio_description/naranjelio_description.egg-info/requires.txt
+[1.002s] writing top-level names to ../build/naranjelio_description/naranjelio_description.egg-info/top_level.txt
+[1.002s] writing manifest file '../build/naranjelio_description/naranjelio_description.egg-info/SOURCES.txt'
+[1.004s] reading manifest file '../build/naranjelio_description/naranjelio_description.egg-info/SOURCES.txt'
+[1.005s] writing manifest file '../build/naranjelio_description/naranjelio_description.egg-info/SOURCES.txt'
+[1.005s] running build
+[1.005s] running build_py
+[1.005s] creating /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build
+[1.005s] creating /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build/lib
+[1.005s] creating /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build/lib/naranjelio_description
+[1.005s] copying naranjelio_description/__init__.py -> /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build/lib/naranjelio_description
+[1.005s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.005s]   warnings.warn(
+[1.006s] running install
+[1.006s] running install_lib
+[1.006s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages/naranjelio_description
+[1.006s] copying /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build/lib/naranjelio_description/__init__.py -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages/naranjelio_description
+[1.007s] byte-compiling /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages/naranjelio_description/__init__.py to __init__.cpython-310.pyc
+[1.007s] running install_data
+[1.008s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/ament_index
+[1.008s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/ament_index/resource_index
+[1.008s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/ament_index/resource_index/packages
+[1.008s] copying resource/naranjelio_description -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/ament_index/resource_index/packages
+[1.008s] copying package.xml -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description
+[1.008s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/launch
+[1.008s] copying launch/gazebo.launch.py -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/launch
+[1.008s] copying launch/display.launch.py -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/launch
+[1.008s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/urdf
+[1.009s] copying urdf/materials.xacro -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/urdf
+[1.009s] copying urdf/naranjelio.trans -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/urdf
+[1.009s] copying urdf/naranjelio.xacro -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/urdf
+[1.009s] copying urdf/naranjelio.gazebo -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/urdf
+[1.009s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.009s] copying meshes/FemurFrontIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.009s] copying meshes/TibiaLowFrontDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.009s] copying meshes/TibiaLowBackDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.009s] copying meshes/FrontIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.010s] copying meshes/PivotTibiaBackIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.010s] copying meshes/base_link.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.011s] copying meshes/PivotTibiaFrontDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.011s] copying meshes/FemurFrontDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.011s] copying meshes/PivotTibiaBackDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.011s] copying meshes/BackIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.012s] copying meshes/TibiaHighFrontIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.012s] copying meshes/FemurBackDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.012s] copying meshes/TibiaHighFrontDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.012s] copying meshes/TibiaLowBackIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.012s] copying meshes/TibiaLowFrontIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.012s] copying meshes/FrontDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.013s] copying meshes/TIbiaHighBackIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.013s] copying meshes/PivotTibiaFrontIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.013s] copying meshes/TibiaHighBackDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.013s] copying meshes/BackDer_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.014s] copying meshes/FemurBackIzq_1.stl -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/meshes
+[1.014s] creating /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/config
+[1.014s] copying config/display.rviz -> /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/config
+[1.014s] running install_egg_info
+[1.016s] Copying ../build/naranjelio_description/naranjelio_description.egg-info to /home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages/naranjelio_description-0.0.0-py3.10.egg-info
+[1.016s] running install_scripts
+[1.037s] writing list of installed files to '/home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/install.log'
+[1.058s] Invoked command in '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description' returned '0': PYTHONPATH=/home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/prefix_override:/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/naranjelio_description build --build-base /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build install --record /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/install.log --install-scripts $base/lib/naranjelio_description --single-version-externally-managed

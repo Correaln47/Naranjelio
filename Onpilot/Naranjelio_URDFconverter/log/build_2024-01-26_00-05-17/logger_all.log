@@ -1,0 +1,116 @@
+[1.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.257s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0d11231de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0d11232ad0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0d11232ad0>>, mixin_verb=('build',))
+[1.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.311s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nicolukas/Tesis/Naranjelio_workspace'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extensions ['ignore', 'ignore_ament_install']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extension 'ignore_ament_install'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extensions ['colcon_pkg']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extension 'colcon_pkg'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extensions ['colcon_meta']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extension 'colcon_meta'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extensions ['ros']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(naranjelio_description) by extension 'ros'
+[1.326s] DEBUG:colcon.colcon_core.package_identification:Package 'naranjelio_description' with type 'ros.ament_python' and name 'naranjelio_description'
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.434s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicolukas/Tesis/Naranjelio_workspace/install/narangelio_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.434s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.449s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/nicolukas/Tesis/Naranjelio_workspace/install
+[1.465s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/nicolukas/ws_moveit2/install
+[1.481s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[1.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'cmake_args' from command line to 'None'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'cmake_target' from command line to 'None'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'naranjelio_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.578s] DEBUG:colcon.colcon_core.verb:Building package 'naranjelio_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description', 'merge_install': False, 'path': '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description', 'symlink_install': False, 'test_result_base': None}
+[1.592s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.607s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description' with build type 'ament_python'
+[1.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('naranjelio_description', 'ament_prefix_path')
+[1.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/hook/ament_prefix_path.ps1'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/hook/ament_prefix_path.dsv'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/hook/ament_prefix_path.sh'
+[1.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.961s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description'
+[1.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description': PYTHONPATH=/home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/prefix_override:/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/naranjelio_description build --build-base /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build install --record /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/install.log --install-scripts $base/lib/naranjelio_description --single-version-externally-managed
+[2.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolukas/Tesis/Naranjelio_workspace/naranjelio_description' returned '0': PYTHONPATH=/home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/prefix_override:/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/naranjelio_description build --build-base /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/build install --record /home/nicolukas/Tesis/Naranjelio_workspace/build/naranjelio_description/install.log --install-scripts $base/lib/naranjelio_description --single-version-externally-managed
+[2.681s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description' for CMake module files
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description' for CMake config files
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib'
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/bin'
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/pkgconfig/naranjelio_description.pc'
+[2.683s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/lib/python3.10/site-packages'
+[2.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('naranjelio_description', 'pythonpath')
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/hook/pythonpath.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/hook/pythonpath.dsv'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/hook/pythonpath.sh'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/bin'
+[2.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naranjelio_description)
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/package.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/package.dsv'
+[2.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/package.sh'
+[2.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/package.bash'
+[2.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/naranjelio_description/package.zsh'
+[2.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolukas/Tesis/Naranjelio_workspace/install/naranjelio_description/share/colcon-core/packages/naranjelio_description)
+[2.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.716s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.745s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.745s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.754s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolukas/Tesis/Naranjelio_workspace/install/local_setup.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicolukas/Tesis/Naranjelio_workspace/install/_local_setup_util_ps1.py'
+[2.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolukas/Tesis/Naranjelio_workspace/install/setup.ps1'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolukas/Tesis/Naranjelio_workspace/install/local_setup.sh'
+[2.789s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicolukas/Tesis/Naranjelio_workspace/install/_local_setup_util_sh.py'
+[2.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolukas/Tesis/Naranjelio_workspace/install/setup.sh'
+[2.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolukas/Tesis/Naranjelio_workspace/install/local_setup.bash'
+[2.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolukas/Tesis/Naranjelio_workspace/install/setup.bash'
+[2.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolukas/Tesis/Naranjelio_workspace/install/local_setup.zsh'
+[2.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolukas/Tesis/Naranjelio_workspace/install/setup.zsh'
